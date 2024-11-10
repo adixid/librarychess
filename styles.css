@@ -1,0 +1,50 @@
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #1F1F1F;
+    padding: 10px 20px;
+    text-align: center;
+}
+.nav a {
+    color: #FFFFFF;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: width 0.5s, color 0.5s, background-color 0.5s;
+}
+
+.nav a:hover {
+    background-color: #FFD700;
+    margin: 0 15px;
+    color: #121212;
+    border-radius: 10px;
+}
+.content {
+    padding: 20px;
+}
+h1, h2 {
+    color: #FFD700;
+}
+.chessboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#board {
+    width: 400px;
+    margin-top: 20px;
+}
+
+.lichess{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
